@@ -4,7 +4,7 @@ import { GifGrid } from "./components/GifGrid";
 
 export default function GifExpertApp() {
 
-  const [categories, setCategories] = useState(['Oscar Navarro'])
+  const [categories, setCategories] = useState(['Stock Market'])
   
   const onAddCategory = (newCategory) => {
 
@@ -16,7 +16,7 @@ export default function GifExpertApp() {
 
   return (
     <>
-        <h1>Gif Expert App</h1>
+        <h1>Gif Expert App by Oscar Navarro</h1>
         <AddCategory 
            onNewCategory={ (event) => onAddCategory(event)}
           currentCategories = {categories} />
